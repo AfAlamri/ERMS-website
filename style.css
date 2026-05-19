@@ -1,0 +1,81 @@
+/*Reset*/
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header*/
+
+.site-header{
+   background-color: rgb(170, 120, 10); 
+   padding: 18px 40px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+ .logo{
+ display: flex;
+ align-items: center;
+ color: rgb(179, 255, 0);
+ font-size: 30px;
+gap: 12px;
+ font-weight: bold;
+ text-transform: capitalize;
+ }
+ .logo-image{
+ width: 55px;
+ height:55px;
+ }
+
+ .nav-bar{
+ display: flex;
+ gap: 24px;
+
+ }
+
+ .nav-bar{
+ color: burlywood;
+ font-weight: bold;
+ 
+ }
+ .nav-link{
+
+ color: chartreuse;
+ font-weight: bold;
+
+
+ }
+
+ .nav-link:hover{
+
+   color: blueviolet;
+ }
+  .btn{
+    border: 2px black;
+    padding: 10px 25px;
+    background-color: blue;
+
+  }
+ .main-content{
+ width: 100%;
+}
+ 
+ .hero{
+    main-height: 80%;
+    background-image: url("images/train.png");
+   background-size:cover ;
+   background-repeat:no-repeat ;
+ }
